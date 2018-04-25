@@ -14,9 +14,9 @@
 		C52E5A0A208F8351000A2602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52E5A09208F8351000A2602 /* Assets.xcassets */; };
 		C52E5A0D208F8351000A2602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52E5A0B208F8351000A2602 /* LaunchScreen.storyboard */; };
 		C52E5A15208F8381000A2602 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C52E5A14208F8381000A2602 /* Podfile */; };
-		C52E5A17208F8E32000A2602 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E5A16208F8E32000A2602 /* Models.swift */; };
 		C52E5A1B208F955A000A2602 /* Sessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E5A1A208F955A000A2602 /* Sessions.swift */; };
 		C5CCBD4B2090C08100CAF5E4 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCBD4A2090C08100CAF5E4 /* DataViewController.swift */; };
+		C5CCBD4F2090F87B00CAF5E4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCBD4E2090F87B00CAF5E4 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,9 @@
 		C52E5A0C208F8351000A2602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C52E5A0E208F8351000A2602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C52E5A14208F8381000A2602 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		C52E5A16208F8E32000A2602 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Models.swift; path = ../../../Downloads/Models.swift; sourceTree = "<group>"; };
 		C52E5A1A208F955A000A2602 /* Sessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sessions.swift; sourceTree = "<group>"; };
 		C5CCBD4A2090C08100CAF5E4 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		C5CCBD4E2090F87B00CAF5E4 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		C52E5A01208F8351000A2602 /* testYoGoWo */ = {
 			isa = PBXGroup;
 			children = (
-				C52E5A16208F8E32000A2602 /* Models.swift */,
+				C5CCBD4E2090F87B00CAF5E4 /* Models.swift */,
 				C52E5A02208F8351000A2602 /* AppDelegate.swift */,
 				C52E5A04208F8351000A2602 /* ViewController.swift */,
 				C52E5A06208F8351000A2602 /* Main.storyboard */,
@@ -215,10 +215,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C52E5A1B208F955A000A2602 /* Sessions.swift in Sources */,
-				C52E5A17208F8E32000A2602 /* Models.swift in Sources */,
 				C5CCBD4B2090C08100CAF5E4 /* DataViewController.swift in Sources */,
 				C52E5A05208F8351000A2602 /* ViewController.swift in Sources */,
 				C52E5A03208F8351000A2602 /* AppDelegate.swift in Sources */,
+				C5CCBD4F2090F87B00CAF5E4 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
