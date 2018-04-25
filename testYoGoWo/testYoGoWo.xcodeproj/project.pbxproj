@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		505B1865BA170DF577E62149 /* libPods-testYoGoWo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7C9569D7A31309696D195E /* libPods-testYoGoWo.a */; };
+		C52E5A03208F8351000A2602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E5A02208F8351000A2602 /* AppDelegate.swift */; };
+		C52E5A05208F8351000A2602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E5A04208F8351000A2602 /* ViewController.swift */; };
+		C52E5A08208F8351000A2602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52E5A06208F8351000A2602 /* Main.storyboard */; };
+		C52E5A0A208F8351000A2602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52E5A09208F8351000A2602 /* Assets.xcassets */; };
+		C52E5A0D208F8351000A2602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52E5A0B208F8351000A2602 /* LaunchScreen.storyboard */; };
+		C52E5A15208F8381000A2602 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C52E5A14208F8381000A2602 /* Podfile */; };
+		C52E5A17208F8E32000A2602 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E5A16208F8E32000A2602 /* Models.swift */; };
+		C52E5A1B208F955A000A2602 /* Sessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52E5A1A208F955A000A2602 /* Sessions.swift */; };
+		C5CCBD4B2090C08100CAF5E4 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CCBD4A2090C08100CAF5E4 /* DataViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C7C9569D7A31309696D195E /* libPods-testYoGoWo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testYoGoWo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7628C7FCD4604360770F032F /* Pods-testYoGoWo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testYoGoWo.release.xcconfig"; path = "Pods/Target Support Files/Pods-testYoGoWo/Pods-testYoGoWo.release.xcconfig"; sourceTree = "<group>"; };
+		A1605A3FE560AE7EE22D9844 /* Pods-testYoGoWo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testYoGoWo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testYoGoWo/Pods-testYoGoWo.debug.xcconfig"; sourceTree = "<group>"; };
+		C52E59FF208F8351000A2602 /* testYoGoWo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testYoGoWo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52E5A02208F8351000A2602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C52E5A04208F8351000A2602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C52E5A07208F8351000A2602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C52E5A09208F8351000A2602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C52E5A0C208F8351000A2602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C52E5A0E208F8351000A2602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C52E5A14208F8381000A2602 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C52E5A16208F8E32000A2602 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Models.swift; path = ../../../Downloads/Models.swift; sourceTree = "<group>"; };
+		C52E5A1A208F955A000A2602 /* Sessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sessions.swift; sourceTree = "<group>"; };
+		C5CCBD4A2090C08100CAF5E4 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C52E59FC208F8351000A2602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505B1865BA170DF577E62149 /* libPods-testYoGoWo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		704EB6CF2270EDF9A7072F83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1605A3FE560AE7EE22D9844 /* Pods-testYoGoWo.debug.xcconfig */,
+				7628C7FCD4604360770F032F /* Pods-testYoGoWo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C52E59F6208F8351000A2602 = {
+			isa = PBXGroup;
+			children = (
+				C52E5A14208F8381000A2602 /* Podfile */,
+				C52E5A01208F8351000A2602 /* testYoGoWo */,
+				C52E5A00208F8351000A2602 /* Products */,
+				704EB6CF2270EDF9A7072F83 /* Pods */,
+				D95502A84C7F9D815C2E3086 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C52E5A00208F8351000A2602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C52E59FF208F8351000A2602 /* testYoGoWo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C52E5A01208F8351000A2602 /* testYoGoWo */ = {
+			isa = PBXGroup;
+			children = (
+				C52E5A16208F8E32000A2602 /* Models.swift */,
+				C52E5A02208F8351000A2602 /* AppDelegate.swift */,
+				C52E5A04208F8351000A2602 /* ViewController.swift */,
+				C52E5A06208F8351000A2602 /* Main.storyboard */,
+				C52E5A09208F8351000A2602 /* Assets.xcassets */,
+				C52E5A0B208F8351000A2602 /* LaunchScreen.storyboard */,
+				C52E5A0E208F8351000A2602 /* Info.plist */,
+				C52E5A1A208F955A000A2602 /* Sessions.swift */,
+				C5CCBD4A2090C08100CAF5E4 /* DataViewController.swift */,
+			);
+			path = testYoGoWo;
+			sourceTree = "<group>";
+		};
+		D95502A84C7F9D815C2E3086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C7C9569D7A31309696D195E /* libPods-testYoGoWo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C52E59FE208F8351000A2602 /* testYoGoWo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C52E5A11208F8351000A2602 /* Build configuration list for PBXNativeTarget "testYoGoWo" */;
+			buildPhases = (
+				3AC29B674C383E712AB677DE /* [CP] Check Pods Manifest.lock */,
+				C52E59FB208F8351000A2602 /* Sources */,
+				C52E59FC208F8351000A2602 /* Frameworks */,
+				C52E59FD208F8351000A2602 /* Resources */,
+				3D167871C1048D5CD01C720B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testYoGoWo;
+			productName = testYoGoWo;
+			productReference = C52E59FF208F8351000A2602 /* testYoGoWo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C52E59F7208F8351000A2602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sloven GRACIET";
+				TargetAttributes = {
+					C52E59FE208F8351000A2602 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C52E59FA208F8351000A2602 /* Build configuration list for PBXProject "testYoGoWo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C52E59F6208F8351000A2602;
+			productRefGroup = C52E5A00208F8351000A2602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C52E59FE208F8351000A2602 /* testYoGoWo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C52E59FD208F8351000A2602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52E5A0D208F8351000A2602 /* LaunchScreen.storyboard in Resources */,
+				C52E5A0A208F8351000A2602 /* Assets.xcassets in Resources */,
+				C52E5A15208F8381000A2602 /* Podfile in Resources */,
+				C52E5A08208F8351000A2602 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AC29B674C383E712AB677DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testYoGoWo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D167871C1048D5CD01C720B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-testYoGoWo/Pods-testYoGoWo-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testYoGoWo/Pods-testYoGoWo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C52E59FB208F8351000A2602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52E5A1B208F955A000A2602 /* Sessions.swift in Sources */,
+				C52E5A17208F8E32000A2602 /* Models.swift in Sources */,
+				C5CCBD4B2090C08100CAF5E4 /* DataViewController.swift in Sources */,
+				C52E5A05208F8351000A2602 /* ViewController.swift in Sources */,
+				C52E5A03208F8351000A2602 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C52E5A06208F8351000A2602 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C52E5A07208F8351000A2602 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C52E5A0B208F8351000A2602 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C52E5A0C208F8351000A2602 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C52E5A0F208F8351000A2602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C52E5A10208F8351000A2602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C52E5A12208F8351000A2602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1605A3FE560AE7EE22D9844 /* Pods-testYoGoWo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testYoGoWo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sg.testYoGoWo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C52E5A13208F8351000A2602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7628C7FCD4604360770F032F /* Pods-testYoGoWo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testYoGoWo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sg.testYoGoWo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C52E59FA208F8351000A2602 /* Build configuration list for PBXProject "testYoGoWo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52E5A0F208F8351000A2602 /* Debug */,
+				C52E5A10208F8351000A2602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C52E5A11208F8351000A2602 /* Build configuration list for PBXNativeTarget "testYoGoWo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52E5A12208F8351000A2602 /* Debug */,
+				C52E5A13208F8351000A2602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C52E59F7208F8351000A2602 /* Project object */;
+}
